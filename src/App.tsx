@@ -33,7 +33,8 @@ function App() {
 
     return (
         <div className="App">
-            <button onClick={deleteHandler}>DELETE</button>
+            <button onClick={deleteHandler}>DELETE </button>
+            <button onClick={deleteHandler}>DELETE </button>
             <button onClick={showPostHandler}>SHOW POSTS</button>
             <ul>
                 {state.map((el) => {
